@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Huffman File Compressor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Compress Text Files</h1>
+    <p>Reduce file size using Huffman Coding</p>
+
+    <div class="upload-section">
+
+        <input type="file" id="fileInput" hidden>
+
+        <button id="selectBtn">
+            Select Text Files
+        </button>
+
+    </div>
+
+    <p class="drop-text">or drop files here</p>
+
+    <div id="dropArea"></div>
+
+    <div id="fileName"></div>
+
+    <div class="actions">
+        <button id="compressBtn">Compress</button>
+        <button id="decompressBtn">Decompress</button>
+    </div>
+
+    <div id="status"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
